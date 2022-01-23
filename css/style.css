@@ -1,0 +1,180 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border: none;
+
+}
+a{
+	text-decoration: none;
+}
+.img-fluid{
+	max-width: 100%;
+	height: auto;
+}
+
+/*
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif;
+
+*/
+
+/**************************
+**HEDER SECTION CODE******
+**************************/
+
+header{
+	width: 100%;
+	padding: 2rem 0;
+	position: absolute;
+}
+.containar{
+	width: 1140px;
+	margin: auto;
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+}
+.bargar span{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	color: #3d2514;
+
+}
+
+.menu_right{
+	text-align: right;
+}
+.bargar img{
+	vertical-align: middle;
+	margin-right: 1rem;
+}
+.bargar{
+	margin-bottom: 20px;
+}
+.menu_col ul li{
+	display: inline-block;
+	margin-left: 3rem;
+	color: #3d2514;
+}
+.menu_col ul li a{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 20px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #3d2514;
+}
+
+/**************************
+**BENNER SECTION CODE******
+**************************/
+
+#banner{
+	width: 100%;
+	padding: 100px 0;
+	background-image: url(../img/banner_bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+
+}
+.banner_content{
+	display: flex;
+
+}
+.banner_left{
+	flex-basis: 50%;
+	display: flex;
+	height: 100vh;
+	align-items: center;
+}
+.banner_right{
+	flex-basis: 50%;
+	padding-top: 2rem;
+
+}
+.banner_left p{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 20px;
+	font-weight: 300;
+	border: 2px dashed #3d2514;
+	display: inline-block;
+	padding: 2px 7px;
+	color: #3d2514;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+
+}
+.banner_left h1{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 114px;
+	font-weight: 700;
+	color: #3d2514;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-shadow: 4px 4px rgba(255, 255, 255, 0.9);
+
+}
+.banner_left h2{
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 56px;
+	font-weight: 400;
+	color: #3d2514;
+	text-transform: uppercase;
+	text-shadow: 4px 4px rgba(255, 255, 255, 0.7);
+
+}
+
+
+/**************************
+**BURGER SECTION CODE******
+**************************/
+#burger{
+	width: 100%;
+	padding: 100px 0px;
+}
+
+.burger-content{
+	display: flex;
+}
+
+.burger-left{
+	flex-basis: 50%;
+}
+
+.burger-right{
+	flex-basis: 50%;
+}
+
+.burger-item{
+	position: relative;
+	margin: 30px;
+}
+
+.text-overlay{
+	position: absolute;
+	top: 20px;
+	left: 40px;
+}
+
+.text-overlay h4{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 25px;
+	font-weight: 200px;
+	text-transform: uppercase;
+	color: #ffff;
+
+}
+
+.text-overlay h3{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 40px;
+	font-weight: 300px;
+	text-transform: uppercase;
+	color: #ffff;
+
+
+}
